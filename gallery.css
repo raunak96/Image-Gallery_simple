@@ -3,6 +3,10 @@
 	color:#2c3e58;
 	background: #ecf0f1;
 }
+.row{
+	padding-right: 13px;
+	padding-left:13px;
+}
 .navbar-inverse{
 	background:#2c3e58;
 }
