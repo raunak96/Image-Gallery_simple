@@ -20,8 +20,22 @@
 	overflow:hidden;
 }
 .thumbnail:hover img{
-	filter:grayscale(20%);
-	transform:scale(1.5);
-	opacity:0.7;
-	transition:all 0.8s ease-in-out 0.2s;
+  animation:imla 5s ease-in-out infinite 0.6s backwards;
+}
+img{
+  opacity:0.8;
+}
+@keyframes imla{
+	0%{
+		opacity:0.9;	
+	}
+	50%
+	{
+		transform: scale(1.5);
+		opacity:1.0;	
+	}
+	100%{
+		transform: scale(1.2);
+		opacity:0.8;	
+	}
 }
